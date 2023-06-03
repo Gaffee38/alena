@@ -1,0 +1,36 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Raleway', sans-serif;
+   background-color: #f375fc;
+}
+a{
+   text-decoration: none;
+   color: #fff;
+}
+.block__wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100%;
+}
+.block button, .block a{
+   font-family: 'Pacifico', cursive;
+   font-size: 65px;
+   font-weight: 400;
+   background-color: #f375fc;
+   border: none;
+   cursor: pointer;
+   padding: 100px;
+   color: #fff;
+}
+.block{
+   display: none;
+}
+.active_block{display: block;}
+.video video{
+   max-width: 1200px;
+   height: auto;  
+   border-radius: 60px;
+}
